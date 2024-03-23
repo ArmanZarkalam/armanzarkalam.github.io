@@ -1,0 +1,50 @@
+.card{
+    position: relative;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.169);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 200px;
+    display: inline-block;
+    height: 280px;
+}
+
+.card:hover{
+    background-color: rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
+
+
+.podcast_image{
+    max-width: 95%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+
+
+.podcast_name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.podcaster_names{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-top: 1px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 12px;
+}
+
+.episodes{
+    position: absolute;
+    text-align: left;
+    bottom: 0px;
+    border-top: black;
+    font-size: 14px;
+}
